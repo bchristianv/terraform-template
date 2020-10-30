@@ -1,2 +1,2 @@
 # terraform-template
-Terraform infrastructure template with example configuration
+Example Terraform infrastructure with Jenkins CI/CD configuration

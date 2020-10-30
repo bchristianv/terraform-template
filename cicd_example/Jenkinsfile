@@ -9,6 +9,22 @@ try {
     }
   }
 
+  // Run terraform validate
+  // stage('validate') {
+  //   node {
+  //     withCredentials([[
+  //       $class: 'AmazonWebServicesCredentialsBinding',
+  //       credentialsId: credentials_id,
+  //       accessKeyVariable: 'AWS_ACCESS_KEY_ID',
+  //       secretKeyVariable: 'AWS_SECRET_ACCESS_KEY'
+  //     ]]) {
+  //       ansiColor('xterm') {
+  //         sh '$HOME/bin/terraform validate'
+  //       }
+  //     }
+  //   }
+  // }
+
   // Run terraform init
   // stage('initialize') {
   //   node {

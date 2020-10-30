@@ -1,4 +1,4 @@
-# Example Infrastructure
+# Infrastructure example
 
 terraform {
   required_providers {
