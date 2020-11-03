@@ -12,7 +12,7 @@ terraform {
   # run `init` again to migrate state to s3/dynamodb, if desired.
   # backend "s3" {
   #   bucket         = "organization-tf-backend-storage"
-  #   key            = "terraform_infrastructure/terraform.tfstate"
+  #   key            = "terraform-tf_infrastructure/terraform.tfstate"
   #   dynamodb_table = "tf-backend-lock"
   #   profile        = "ci-user"
   #   region         = "us-west-2"
